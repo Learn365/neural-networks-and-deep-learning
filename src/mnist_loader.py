@@ -10,7 +10,10 @@ function usually called by our neural network code.
 
 #### Libraries
 # Standard library
-import cPickle
+# cPickle to pickle in python 3.x
+# https://stackoverflow.com/questions/37132899/installing-cpickle-with-python-3-5
+# It's just to use pickle in 3.x, cPickle comes with the standard library in python 2.x
+import pickle as cPickle #
 import gzip
 
 # Third-party libraries
